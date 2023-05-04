@@ -1,0 +1,198 @@
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  body {
+      width: 100%;
+  }
+
+  html {
+      width: 100%;
+  }
+
+  #box {
+      margin-top: 50px;
+  }
+
+  #box-middle table {
+      width: 95%;
+      margin: 0 auto;
+      border: 1;
+      border-collapse: collapse;
+  }
+
+  #box-middle th {
+      height: 40px;
+  }
+
+  #box-middle table th,
+  td {
+      border: 1px solid #ccc;
+  }
+
+  #box-top {
+      margin-bottom: 10px;
+  }
+
+  #addBtn {
+      border: 0;
+      width: 80px;
+      height: 40px;
+      color: white;
+      background-color: rgb(119, 151, 119);
+      margin-left: 50px;
+      border-radius: 8px;
+  }
+
+  #delAllBtn {
+      border: 0;
+      width: 80px;
+      height: 40px;
+      color: white;
+      background-color: red;
+      border-radius: 8px;
+  }
+
+  #box-top b {
+      margin-left: 30px;
+  }
+
+  #searchInput {
+      width: 180px;
+      height: 35px;
+      border: 1px solid #ccc;
+  }
+
+  #searchBtn {
+      border: 0;
+      width: 50px;
+      height: 40px;
+      color: white;
+      background-color: rgb(119, 151, 119);
+      border-radius: 8px;
+  }
+
+  tbody td {
+      height: 50px;
+      text-align: center;
+  }
+
+  .delBtn {
+      border: 0;
+      width: 60px;
+      height: 30px;
+      color: white;
+      background-color: red;
+      border-radius: 8px;
+  }
+
+  .updBtn {
+      border: 0;
+      width: 60px;
+      height: 30px;
+      color: white;
+      background-color: rgb(67, 67, 246);
+      border-radius: 8px;
+  }
+
+  .seeBtn {
+      border: 0;
+      width: 100px;
+      height: 30px;
+      color: white;
+      background-color: rgb(186, 180, 180);
+      border-radius: 8px;
+  }
+
+  button {
+      cursor: pointer;
+  }
+
+  #box-echarts {
+      width: 900px;
+      height: 500px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-left: -450px;
+      margin-top: -250px;
+      background-color: #ccc;
+      border-radius: 8px;
+      display: none;
+  }
+
+  #box-save {
+      width: 400px;
+      height: 500px;
+      background-color: rgb(204, 204, 204, 0.5);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -200px;
+      margin-top: -250px;
+      border-radius: 8px;
+      display: none;
+  }
+
+  #box-save div {
+      text-align: right;
+      margin-top: 20px;
+      margin-right: 70px;
+  }
+
+  #box-save-btn button {
+      margin-top: 30px;
+      margin-right: 50px;
+  }
+
+  #saveBtn {
+      border: 0;
+      width: 60px;
+      height: 30px;
+      color: white;
+      background-color: green;
+      border-radius: 8px;
+  }
+
+  .celBtn {
+      border: 0;
+      width: 60px;
+      height: 30px;
+      color: white;
+      background-color: #908c8c;
+      border-radius: 8px;
+  }
+
+  #box-add {
+      width: 400px;
+      height: 150px;
+      background-color: rgb(204, 204, 204, 0.5);
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-left: -200px;
+      margin-top: -75px;
+      border-radius: 8px;
+      display: none;
+  }
+
+  #box-add div {
+      margin-top: 20px;
+      margin-right: 70px;
+      text-align: right;
+  }
+
+  #box-add-btn button {
+      margin-top: 30px;
+      margin-right: 45px;
+  }
+
+  #addStuBtn {
+      border: 0;
+      width: 60px;
+      height: 30px;
+      color: white;
+      background-color: green;
+      border-radius: 8px;
+  }
